@@ -23,3 +23,48 @@
     color: #ebdfc0;
     background-color: #160d0d;
 }
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.legend ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.legend ul li {
+    display: flex;
+    align-items: end;
+}
+
+.legend ul li span {
+    border: 1px solid rgb(6, 14, 55);
+    border-radius: 50%;
+}
+
+.status-color {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+
+.pendente {
+    background-color: #E17B7B;
+    /* Cor para status "Pendente" */
+}
+
+.em-andamento {
+    background-color: #E1E17B;
+    /* Cor para status "Em andamento" */
+}
+
+.concluida {
+    background-color: #7BE17B;
+    /* Cor para status "Concluída" */
+}

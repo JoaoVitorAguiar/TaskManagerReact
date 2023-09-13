@@ -26,6 +26,20 @@ const Home = () => {
     return (
         <div className='home'>
             <h1>Últimas tarefas</h1>
+            <div className="legend">
+                <h3>Status:</h3>
+                <ul>
+                    <li>
+                        <span className="status-color pendente"></span> Pendente
+                    </li>
+                    <li>
+                        <span className="status-color em-andamento"></span> Em andamento
+                    </li>
+                    <li>
+                        <span className="status-color concluida"></span> Concluída
+                    </li>
+                </ul>
+            </div>
             {tarefas.length == 0 ? (<p>Carregando...</p>) : (
                 tarefas.map((tarefa) => (
                     <Link to={`/details/${tarefa.id}`} key={tarefa.id}>
