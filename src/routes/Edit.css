@@ -1,0 +1,23 @@
+.btn-atualizar {
+    color: #000000;
+    background-color: #86de89;
+    border: 1px solid #ffffff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;
+
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 20px;
+}
+
+.buttons-edit-task {
+    display: flex;
+    width: 220px;
+    gap: 0.5rem;
+}
+
+.btn-atualizar:hover {
+    color: #ffffff;
+    background-color: #0f1e3d;
+}
