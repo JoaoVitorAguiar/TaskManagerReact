@@ -1,0 +1,105 @@
+.details {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 1rem 2rem;
+}
+
+.details h1 {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.details p {
+    margin-top: 1.5rem;
+}
+
+
+.details h1::first-letter,
+.details p::first-letter {
+    text-transform: uppercase;
+}
+
+
+.btn-edit,
+.btn-delete,
+.btn-back {
+    border: 1px solid #ffffff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;
+    max-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-edit {
+    color: #000000;
+    background-color: #86de89;
+}
+
+.btn-delete {
+    color: #000000;
+    background-color: #de8686;
+    font-size: 20px;
+}
+
+.btn-back {
+    color: #000000;
+    background-color: rgb(112, 136, 201);
+}
+
+.btn-edit:hover,
+.btn-delete:hover,
+.btn-back:hover {
+    color: #ffffff;
+    background-color: #0f1e3d;
+}
+
+.buttons {
+    padding-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.delete-modal {
+    margin: 2rem auto;
+    border: 1px solid #0f1e3d;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #baccef;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.delete-modal p {
+    font-weight: 700;
+}
+
+.delete-modal button {
+    width: 100px;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: .3s;
+    opacity: 0.8;
+}
+
+.delete-modal button:hover {
+    opacity: 1;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0f1e3d;
+}
+
+.modal-btn-notConfirm {
+    background-color: rgb(118, 201, 112);
+}
+
+.modal-btn-confirm {
+    background-color: #de8686
+}
