@@ -3,6 +3,12 @@
 Este é um sistema de gerenciamento de tarefas desenvolvido usando React para o frontend e uma API RESTful para o backend. Ele permite que os usuários criem, visualizem, editem e excluam tarefas.
 Resolvi criar essa aplicação React para consuimir uma APi proposta pela Loading Jr. Uma empresa júnior de Engenharia de Computação UFC-Sobral. 
 
+##
+
+<p align="center">
+  <img src="https://github.com/JoaoVitorAguiar/TaskManagerReact/blob/main/src/TaskManagerReactVitorAguiar.gif" width="700" />
+</p>
+
 ## Funcionalidades
 
 - **Listagem de Tarefas:** A página inicial exibe uma lista das tarefas mais recentes. Os usuários podem clicar em uma tarefa para ver os detalhes.
