@@ -1,0 +1,27 @@
+.tarefa {
+    display: flex;
+    padding: 1rem 2rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    transition: .3s;
+    color: #160d05;
+}
+
+.tarefa h1,
+p {
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+
+.tarefa h2::first-letter {
+    text-transform: uppercase;
+}
+
+.tarefa:hover {
+    color: #5a5a5a;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
